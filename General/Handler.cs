@@ -23,8 +23,6 @@ namespace PGN.General
         protected static IPEndPoint remoteAddressTCP;
         protected static IPEndPoint remoteAddressUDP;
 
-        protected Socket TCP_socket;
-
         protected static User user;
 
         public void SetLocalAdressTCP(string ip, int port)
